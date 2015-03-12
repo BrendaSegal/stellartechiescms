@@ -1,0 +1,91 @@
+# Logfile created on 2015-03-12 15:10:06 -0400 by logger.rb/1.2.8
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-03-12 15:10:22 -0400[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:12:05 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:15:02 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:15:11 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:15:25 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:16:00 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:17:01 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:18:20 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:18:31 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:18:40 -0400
+[0;97;49mStarted GET "/" at 2015-03-12 15:19:14 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+[0;31;49m[ERROR] Unknown tag 'uneditable_text' - ./app/views/pages/index.liquid:27:in `Welcome to Stellar Techies'
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:19:36 -0400
+[0;97;49mStarted GET "/" at 2015-03-12 15:19:38 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:19:57 -0400
+[0;97;49mStarted GET "/" at 2015-03-12 15:20:00 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.0ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:28:55 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:29:31 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:29:34 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:29:51 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:30:59 -0400
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:32:33 -0400
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-03-12 15:36:09 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-03-12 15:39:48 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:40:13 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:40:13 -0400
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-03-12 15:40:14 -0400
+[0;97;49mStarted GET "/" at 2015-03-12 15:40:24 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-03-12 15:42:11 -0400[0m
+Detecting locale EN
+Found page "Welcome to Stellar Techies" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:44:06 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:44:16 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:44:22 -0400
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+* Reloaded "pages", "snippets" at 2015-03-12 15:50:53 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:51:06 -0400
+* Reloaded "pages", "snippets" at 2015-03-12 15:51:57 -0400
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m

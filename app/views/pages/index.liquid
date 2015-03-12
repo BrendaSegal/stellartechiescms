@@ -1,0 +1,39 @@
+---
+title: Welcome to Stellar Techies
+is_layout: false
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+editable_elements:
+  main/welcome_message: '<p style="color: blue; font-size: 18px;">We code sites that
+    are out of this world!</p>'
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}} |  {{ site.name }}</title>
+	{{ 'styles.css' | stylesheet_tag }}
+    <meta name="keywords" value="{{ site.meta_keywords }}" />
+    <meta name="description" value="{{ site.meta_description }}" />
+  </head>
+  <body>
+	<div id="logo">STELLAR TECHIES</div>
+	<nav id="main-nav">
+		<a href="/">Home</a>
+		<a href="/contact">Contact Us</a>
+	</nav>
+	<div id="content">
+		<h1>{{ page.title }}</h1>
+		{% block 'main' %}
+		<p>
+			{% editable_text "welcome_message" %}
+				We code sites that are out of this world!
+			{% endeditable_text %}
+		</p>
+		{% endblock %}
+	</div>
+  </body>
+</html>
