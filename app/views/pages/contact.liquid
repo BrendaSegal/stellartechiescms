@@ -19,18 +19,19 @@ title: Contact Us
 
       <table>
         <tr>
-          <td>Name:</td>
-          <td><input type="text" name="content[name]" value="{{customer_message.name}}"></td>
+          <td>Name:<span id="name">testing</span></td>
+          <td><input type="text" name="content[name]" value="{{customer_message.name | escape }}"></td>
         </tr>
         <tr>
           <td>Email:</td>
-          <td><input type="text" name="content[email]" value="{{customer_message.email}}"></td>
+          <td><input type="text" name="content[email]" value="{{customer_message.email | escape }}"></td>
         </tr>
         <tr>
           <td>Message:</td>
-          <td><textarea name="content[message]">{{customer_message.message}}</textarea></td>
+          <td><textarea name="content[message]">{{customer_message.message | escape }}</textarea></td>
         </tr>
       </table>
       <input type="submit">
     </form>
+	
 {% endblock %}

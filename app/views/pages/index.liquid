@@ -14,26 +14,42 @@ editable_elements:
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{page.title}} |  {{ site.name }}</title>
+    <title>{{ page.title | escape }} |  {{ site.name | escape }}</title>
 	{{ 'styles.css' | stylesheet_tag }}
-    <meta name="keywords" value="{{ site.meta_keywords }}" />
-    <meta name="description" value="{{ site.meta_description }}" />
+	{% if page.meta_keywords %}
+		 <meta name="keywords" value="{{ page.meta_keywords | escape }}" />
+	{% else %}
+		 <meta name="keywords" value="{{ site.meta_keywords | escape }}" />
+	{% endif %}
+	
+	{% if page.meta_description %}
+		 <meta name="description" value="{{ page.meta_description | escape }}" />
+	{% else %}
+		 <meta name="description" value="{{ site.meta_description | escape }}" />
+	{% endif %}
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-	<div id="logo">STELLAR TECHIES</div>
-	<nav id="main-nav">
-		<a href="/">Home</a>
-		<a href="/contact">Contact Us</a>
-	</nav>
+	<div id="logo">STELLAR TECHIES</div>	
+	{% include 'navigation' %}
 	<div id="content">
-		<h1>{{ page.title }}</h1>
+		<h1>{{ page.title | escape }}</h1>
 		{% block 'main' %}
-		<p>
-			{% editable_text "welcome_message" %}
-				We code sites that are out of this world!
-			{% endeditable_text %}
+		<p>
+			{% editable_text "welcome_message" %}
+				We code sites that are out of this world!
+			{% endeditable_text %}
 		</p>
 		{% endblock %}
-	</div>
+	</div>	
+	{% include 'footer' %}
+	
+	<!--Javascript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
+	{{ 'contact.js' | javascript_tag }}
+	
+	<!-- end Javascript -->
   </body>
 </html>
